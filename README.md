@@ -358,15 +358,9 @@ simultaneously utilizing alternative methods.
 ###  **Prerequisites**
 
 -   Python 3.7+
-
--   TensorFlow 2.x
-
--   Keras
-
+-   numpy
+-   pandas
 -   scikit-learn
-
--   OpenCV
-
 -   Matplotlib
 
 
