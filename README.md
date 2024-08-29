@@ -362,6 +362,7 @@ simultaneously utilizing alternative methods.
 -   pandas
 -   scikit-learn
 -   Matplotlib
+-   seaborn
 
 
 • The structure of the project directory is as below.
