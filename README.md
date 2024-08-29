@@ -74,7 +74,7 @@ vehicles. Below is a summary of the features in the dataset:
 -   **num\_serv\_dealer\_purchased**: Number of services at the dealer
     where the vehicle was purchased, in deciles.
 
-### **<u>Data Preparation</u>**
+## **<u>Data Preparation</u>**
 
 -   **Determining identifiers and categorical features.**
 
@@ -115,7 +115,7 @@ or individuals, leading to unfair discrimination and measures must be
 implemented to ensure the protection of the data as it involves
 customers' information about purchasing behaviour.
 
-### **<u>Modelling</u>**
+## **<u>Modelling</u>**
 
 Considering the business objective of determining potential customers
 leads for a marketing campaign, there is no good theory to map and
@@ -142,7 +142,7 @@ alt="A table of exercise techniques Description automatically generated with med
 Figure 4: Algorithms employed, hyperparameters and techniques applied in
 the experiments.
 
-### **<u>Evaluation</u>**
+## **<u>Evaluation</u>**
 
 <img src="./attachments/projectreadme/media/image6.png"
 style="width:6.26389in;height:8.45208in" />Note: Detailing explanations
@@ -150,7 +150,7 @@ only for the decent model from each experiment and to obtain a
 comprehensive understanding of the performance of each model, kindly
 refer to its respective Experiment Reports.
 
-#### **A\] Experiment 1: K-Nearest Neighbors**
+### **A\] Experiment 1: K-Nearest Neighbors**
 
 <img src="./attachments/projectreadme/media/image7.png"
 style="width:4.61597in;height:8.31667in" />
@@ -174,7 +174,7 @@ style="width:4.61597in;height:8.31667in" />
     was significantly overfitting. Additional analysis is required to
     ensure that the model can be more generalized.
 
-#### **B\] Experiment 2: Logistic Regression**
+### **B\] Experiment 2: Logistic Regression**
 
 <img src="./attachments/projectreadme/media/image8.png"
 style="width:5.30903in;height:5.15556in" />
@@ -206,7 +206,7 @@ style="width:5.15556in;height:5.65417in" />
     exercises, are not sufficiently generalized to accurately predict
     customers who are likely to purchase a new vehicle.
 
-#### **C\] Experiment 3: Decision Tree**
+### **C\] Experiment 3: Decision Tree**
 
 <img src="./attachments/projectreadme/media/image10.png"
 style="width:4.82847in;height:8.24028in" />
@@ -240,7 +240,7 @@ style="width:4.70139in;height:2.9875in" />
     to assess the model's performance and work out whether it is
     worthwhile to proceed with additional analysis.
 
-#### **D\] Experiment 4: Random Forest**
+### **D\] Experiment 4: Random Forest**
 
 <img src="./attachments/projectreadme/media/image12.png"
 style="width:5.73264in;height:9.61736in" />
@@ -278,7 +278,7 @@ style="width:5.33264in;height:6.8625in" />
     vehicle or class 0 of not interested and their feature's importance
     rate ranges between 0.02% to 0.19%.
 
-#### **E\] Experiment 5: Random Forest**
+### **E\] Experiment 5: Random Forest**
 
 <img src="./attachments/projectreadme/media/image14.jpeg"
 style="width:5.99097in;height:5.075in" />
@@ -297,7 +297,7 @@ style="width:5.99097in;height:5.075in" />
     less amount of customers as not interested in purchasing a new
     vehicle while in actual those who are interested.
 
-#### **F\] Experiment 6: Extra Trees**
+### **F\] Experiment 6: Extra Trees**
 
 <img src="./attachments/projectreadme/media/image15.jpeg"
 style="width:5.96528in;height:5.00208in" />
@@ -314,7 +314,7 @@ style="width:5.96528in;height:5.00208in" />
     testing notifying that the model is misclassifying a small number of
     customers as unlikely to purchase a new vehicle.
 
-### **<u>Model Summary and Business Suggestions:</u>**
+## **<u>Model Summary and Business Suggestions:</u>**
 
 After considering the business objective of identifying potential
 customers who are likely to purchase a new vehicle and assessing the
